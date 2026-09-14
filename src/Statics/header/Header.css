@@ -35,34 +35,42 @@
     }
 }
 
-@media (max-width: 768px) {
-    .hambuger img {
-        display: block;
-        width: 60px;
-        height: 40px;
-        cursor: pointer;
-    }
+@media (max-width: 500px) {
 
     .headerContainer {
+        /* background-color: red; */
         display: flex;
-        justify-content: space-between;
+        padding: 35px 0px;
+        padding-left: 30px;
+        gap: 40px;
+    }
 
-
+    .navigation {
+        display: flex;
+        gap: 15px;
+        margin-left: -20px;
     }
 
     .Logo {
         img {
-            width: 140px;
-            height: 50px;
-            margin-right: 700px;
+            width: 100px;
+            margin-left: -60px;
         }
     }
 
-    .navigation {
-        display: none;
+
+
+    .rule {
+        height: 2px;
+        background-color: blue;
+        margin-top: 25px;
     }
 
-
-
-
+    .hambuger {
+        img {
+            width: 80px;
+            height: 50px;
+            display: none;
+        }
+    }
 }

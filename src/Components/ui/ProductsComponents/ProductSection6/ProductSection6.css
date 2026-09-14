@@ -130,6 +130,7 @@
         align-items: center;
         padding: 50px 50px;
         gap: -50px;
+        justify-content: center;
     }
 
     .Container1 {
@@ -165,10 +166,10 @@
         }
 
         img {
-            width: 400px;
+            width: 350px;
             height: 200px;
             margin-top: -10px;
-            margin-left: -25px;
+            margin-left: 0px;
             border-radius: 10px;
             transition: 1s ease-in-out;
 
@@ -221,10 +222,10 @@
         }
 
         img {
-            width: 400px;
+            width: 350px;
             height: 200px;
             margin-top: -10px;
-            margin-left: -25px;
+            margin-left: 0px;
             border-radius: 10px;
             transition: 1s ease-in-out;
 
