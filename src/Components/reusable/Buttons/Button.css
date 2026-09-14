@@ -1,0 +1,17 @@
+.button {
+    padding: 15px 30px;
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #1a73eb;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+}
+
+@media (max-width:500px) {
+    .Button {
+        min-width: 90%;
+    }
+}

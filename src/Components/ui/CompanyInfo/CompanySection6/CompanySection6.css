@@ -1,0 +1,40 @@
+.Section6Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+
+    h1 {
+
+        font-size: 45px;
+    }
+
+    h3 {
+        color: rgb(65, 64, 64);
+        margin-top: -10px;
+    }
+}
+
+@media(max-width:500px) {
+    .Section6Text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 50px;
+        margin-top: -50px;
+
+        h1 {
+
+            font-size: 30px;
+        }
+
+        h3 {
+            color: rgb(65, 64, 64);
+            margin-top: 10px;
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+}

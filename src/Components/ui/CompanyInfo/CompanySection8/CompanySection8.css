@@ -1,0 +1,68 @@
+.CompanySection8Container {
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    padding: 120px 150px;
+    gap: 50px;
+    height: 400px;
+
+}
+
+.conatainerImage {
+    img {
+        width: 585px;
+        height: 400px;
+    }
+}
+
+.Section8Text {
+    h1 {
+        font-size: 60px;
+    }
+
+    h4 {
+        font-size: 20px;
+        width: 600px;
+    }
+
+    Button {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:500px) {
+    .CompanySection8Container {
+        background-color: #F8F9FA;
+        display: grid;
+        justify-content: center;
+        padding: 120px 150px;
+        gap: 50px;
+        height: 400px;
+        margin-bottom: 70px;
+    }
+
+    .conatainerImage {
+        img {
+            width: 385px;
+            height: 250px;
+        }
+    }
+
+    .Section8Text {
+        h1 {
+            font-size: 25px;
+            text-align: center;
+        }
+
+        h4 {
+            font-size: 15px;
+            width: 400px;
+            text-align: center;
+        }
+
+        Button {
+            font-size: 20px;
+        }
+    }
+
+}

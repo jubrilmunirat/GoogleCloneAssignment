@@ -1,0 +1,59 @@
+.Section3Container {
+    background-color: #f3f5fb;
+    text-align: center;
+    padding: 70px 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.SectionText {
+    h1 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 17px;
+        color: rgb(155, 151, 151);
+        margin-top: -10px;
+    }
+}
+
+button {
+    margin-top: 20px;
+}
+
+.SectionLogo {
+    img {
+        width: 60px;
+        height: 60px;
+
+    }
+}
+
+@media(max-width:500px) {
+    .Section3Container {
+        background-color: #f3f5fb;
+        text-align: center;
+        padding: 70px 70px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .SectionText {
+        h1 {
+            font-size: 40px;
+        }
+
+        h3 {
+            font-size: 16px;
+            color: rgb(155, 151, 151);
+            margin-top: -10px;
+        }
+    }
+
+    Button {
+        width: 400px;
+    }
+}

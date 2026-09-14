@@ -1,0 +1,96 @@
+.SlideContainer {
+    display: flex;
+    background-color: #E8F0FF;
+    width: 100vw;
+    height: 528px;
+    gap: 50px;
+    margin-top: -200px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.ContainerChild {
+    margin-top: 40px;
+    display: flex;
+    padding: 50px;
+    gap: 40px
+}
+
+.SlideText {
+    h1 {
+        font-size: 50px;
+        width: 300px;
+        margin-top: -30px;
+
+    }
+
+    h4 {
+        font-size: 15px;
+        width: 300px;
+    }
+
+}
+
+.Sliceimage {
+    img {
+        width: 520px;
+        height: 292px;
+        border-radius: 10px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .SlideContainer {
+        display: flex;
+        background-color: #E8F0FF;
+        width: 100vw;
+        height: 728px;
+        gap: 50px;
+        margin-top: -200px;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .ContainerChild {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        gap: 40px
+    }
+
+    .SlideText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-size: 45px;
+            width: 400px;
+
+
+        }
+
+        h4 {
+            font-size: 15px;
+            width: 400px;
+            margin-top: -20px;
+        }
+
+    }
+
+    .Sliceimage {
+        img {
+            width: 520px;
+            height: 292px;
+            border-radius: 10px;
+            margin-top: -70px;
+        }
+
+    }
+
+}

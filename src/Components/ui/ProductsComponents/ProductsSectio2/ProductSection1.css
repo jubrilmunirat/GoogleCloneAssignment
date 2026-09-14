@@ -1,0 +1,192 @@
+.ProductsContainer {
+    padding: 90px 0;
+}
+
+.ProductsIcon {
+    display: flex;
+    gap: 50px;
+
+
+    .ProductsIcon {
+        display: inline-block;
+
+
+
+
+    }
+
+    /* Allows the element to transform properly */
+
+    /* Adjust size as needed */
+
+    /* Link the animation named 'moveRight' */
+    animation: moveRight 5s linear infinite;
+
+    img {
+        height: 40px;
+    }
+}
+
+
+
+/* Define the movement path */
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+        /* Starts at its original position */
+    }
+
+    100% {
+        transform: translateX(150px);
+        /* Moves 200px to the right. Change this value as needed. */
+    }
+
+}
+
+.Parent {
+    text-align: center;
+    padding: 70px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+
+.ProdcutsText {
+    h1 {
+        font-size: 50px;
+        width: 900px;
+    }
+}
+
+.Navigation {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    height: 20px;
+    width: 650px;
+    border-radius: 30px;
+    color: rgb(161, 159, 159);
+    margin-top: 20px;
+
+    nav:hover {
+        cursor: pointer;
+        background-color: #edf3f7;
+        padding: 5px;
+    }
+}
+
+.ProductsImage {
+    padding: 10px;
+
+    img {
+        width: 100vw;
+        height: 420px;
+    }
+}
+
+@media(max-width:500px) {
+    .ProductsContainer {
+        padding: 90px 0;
+    }
+
+    .ProductsIcon {
+        display: flex;
+        gap: 50px;
+
+
+        .ProductsIcon {
+            display: inline-block;
+
+
+
+
+        }
+
+        /* Allows the element to transform properly */
+
+        /* Adjust size as needed */
+
+        /* Link the animation named 'moveRight' */
+        animation: moveRight 5s linear infinite;
+    }
+
+    img {
+        height: 40px;
+    }
+
+    /* Define the movement path */
+    @keyframes moveRight {
+        0% {
+            transform: translateX(0);
+            /* Starts at its original position */
+        }
+
+        100% {
+            transform: translateX(150px);
+            /* Moves 200px to the right. Change this value as needed. */
+        }
+
+    }
+
+    .Parent {
+        text-align: center;
+        padding: 70px 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        ;
+    }
+
+    .ProdcutsText {
+        h1 {
+            font-size: 40px;
+            width: 450px;
+        }
+    }
+
+    .Navigation {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.8);
+        padding: 15px;
+        height: 20px;
+        width: 350px;
+        border-radius: 30px;
+        color: rgb(161, 159, 159);
+        margin-top: 20px;
+        margin-bottom: 60px;
+        overflow-x: scroll;
+
+        nav {
+            font-size: 15px;
+            width: 800px;
+        }
+
+        nav:hover {
+            cursor: pointer;
+            background-color: #edf3f7;
+            padding: 5px;
+        }
+    }
+
+    .ProductsImage {
+        padding: 10px;
+
+        img {
+            width: 100vw;
+            height: 150px;
+            margin-top: 10px;
+        }
+    }
+
+}

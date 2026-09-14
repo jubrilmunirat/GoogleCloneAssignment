@@ -1,0 +1,136 @@
+.Company-section1 {
+    /* background-color: red; */
+    /* padding: 70px 70px; */
+    border: 10px;
+    /* animation: popUp 2s ease-in-out; */
+
+
+}
+
+.CompanySection {
+    border: 3px solid gainsboro;
+    /* outline: none; */
+    width: 373px;
+    height: 395px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.CompanySection:hover {
+    box-shadow: 2px 4px 8px rgba(69, 50, 245, 0.9);
+
+    cursor: pointer;
+}
+
+
+.CompanySectionImage {
+    img {
+        width: 373px;
+        height: 212px;
+        border-radius: 15px;
+        margin-top: 0px;
+        cursor: pointer;
+        transition: 1s ease-in-out;
+        margin-left: 0px;
+
+    }
+
+    img:hover {
+        transform: scale(0.9);
+    }
+}
+
+
+
+.CompanySectionText {
+    p {
+        font-size: 20px;
+        width: 350px;
+        color: black;
+        padding: 25px;
+        margin-top: -5px;
+    }
+
+}
+
+.CompanySectionIcon {
+    img {
+        width: 45px;
+        height: 25px;
+        margin-left: 300px;
+        padding: 10px;
+        margin-top: -30px;
+
+    }
+}
+
+@media (max-width: 500px) {
+    .Company-section1 {
+        /* background-color: red; */
+        /* padding: 70px 70px; */
+        border: 10px;
+        /* animation: popUp 2s ease-in-out; */
+
+
+    }
+
+    .CompanySection {
+        border: 3px solid gainsboro;
+        /* outline: none; */
+        width: 373px;
+        height: 395px;
+        border-radius: 15px;
+    }
+
+    .CompanySection:hover {
+        box-shadow: 2px 4px 8px rgba(69, 50, 245, 0.9);
+
+        cursor: pointer;
+    }
+
+
+    .CompanySectionImage {
+        img {
+            width: 373px;
+            margin-left: 0px;
+            height: 212px;
+            border-radius: 15px;
+            margin-top: 0px;
+            cursor: pointer;
+            transition: 1s ease-in-out;
+
+        }
+
+        img:hover {
+            transform: scale(0.9);
+        }
+    }
+
+
+
+    .CompanySectionText {
+        p {
+            font-size: 20px;
+            width: 350px;
+            color: black;
+            padding: 25px;
+            margin-top: -5px;
+        }
+
+    }
+
+    .CompanySectionIcon {
+        img {
+            width: 45px;
+            height: 25px;
+            margin-left: 300px;
+            padding: 10px;
+            margin-top: -30px;
+
+        }
+    }
+
+}

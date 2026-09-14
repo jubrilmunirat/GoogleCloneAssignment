@@ -1,0 +1,5 @@
+<svg role="presentation" aria-hidden="true" class="glue-icon glue-icon--footer glue-expansion-panel__header-arrow" xmlns="http://www.w3.org/2000/svg"><defs><symbol id="expand-more" viewBox="0 0 24 24">
+        <path d="M5.41 7.59L4 9l8 8 8-8-1.41-1.41L12 14.17"></path>
+      </symbol></defs>
+                  <use href="#expand-more"></use>
+                </svg>

@@ -1,0 +1,42 @@
+.CompanySection9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 70px;
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h3 {
+        color: rgb(92, 91, 91);
+        margin-top: -20px;
+    }
+}
+
+@media (max-width:500px) {
+    .CompanySection9 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -120px;
+        /* padding: 70px 70px; */
+
+
+        h1 {
+            font-size: 25px;
+            text-align: center;
+            width: 800px;
+        }
+
+        h3 {
+            color: rgb(92, 91, 91);
+            margin-top: 10px;
+            font-size: 15px;
+            width: 450px;
+            text-align: center;
+        }
+    }
+}

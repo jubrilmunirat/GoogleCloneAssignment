@@ -1,0 +1,156 @@
+.ParentGoogleContainer {
+    padding: 70px 120px;
+}
+
+.GoogleText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .GoogleText1 {
+        h1 {
+            font-size: 60px;
+        }
+    }
+
+    .GoogleText2 {
+        h2 {
+            font-size: 20px;
+        }
+
+
+    }
+
+    input {
+        font-size: 20px;
+        width: 300px;
+        margin-left: 30px;
+        padding: 15px;
+        border-radius: 1px;
+        cursor: pointer;
+
+    }
+
+    input:hover {
+        border: 1px solid black;
+    }
+}
+
+.GoogleIconImage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px 0px;
+
+}
+
+.Text3 {
+    display: flex;
+
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+    background-color: #F8F9FA;
+    width: 950px;
+    height: 5px;
+    margin-top: 40px;
+
+    img {
+        margin-top: 35px;
+        width: 25px;
+        height: 25px;
+    }
+
+    h4 {
+        width: 950px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width:500px) {
+    .ParentGoogleContainer {
+        margin-bottom: 70px;
+        padding: 0px 120px;
+    }
+
+    .GoogleText {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .GoogleText1 {
+            h1 {
+                font-size: 30px;
+                text-align: center;
+            }
+        }
+
+        .GoogleText2 {
+            h2 {
+                font-size: 20px;
+                color: rgb(148, 147, 147);
+                margin-left: 20px;
+            }
+
+
+        }
+
+        input {
+            font-size: 20px;
+            width: 350px;
+            margin-left: 30px;
+            padding: 15px;
+            border-radius: 1px;
+            cursor: pointer;
+
+        }
+
+        input:hover {
+            border: 1px solid black;
+        }
+    }
+
+    .GoogleIconImage {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 20px 0px;
+
+    }
+
+    .Text3 {
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 50px;
+        background-color: #F8F9FA;
+        width: 300px;
+        height: 15px;
+        margin-top: 20px;
+        margin-left: -40px;
+
+        .GIcon {
+            margin-left: -30px;
+
+            img {
+                margin-top: -35px;
+                width: 20px;
+                height: 20px;
+
+
+            }
+        }
+
+
+        h4 {
+            width: 500px;
+            font-size: 15px;
+            margin-left: -50px;
+        }
+    }
+}

@@ -1,0 +1,94 @@
+.Section4Container {
+
+    padding: 90px 180px;
+    /* background-color: #f9f3fc;
+    border: 2px solid red; */
+
+}
+
+.Section4 {
+    display: flex;
+    justify-content: center;
+    background-color: #F2F5FA;
+    border-radius: 35px;
+    padding: 20px 10px;
+    width: 1009px;
+    height: 146px;
+
+}
+
+.Section4Text {
+    h1 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 18px;
+        width: 800px;
+    }
+}
+
+.Section4btn {
+    Button {
+        background-color: #E0EBFC;
+        color: #1562fc;
+        margin-right: 10px;
+        margin-top: 55px;
+    }
+}
+
+Button:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width:500px) {
+    .Section4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F2F5FA;
+        border-radius: 35px;
+        /* padding: 20px 20px; */
+        width: 350px;
+        height: 250px;
+        margin-left: -100px;
+        margin-top: -190px;
+    }
+
+    .Section4Text {
+        padding: 15px 15px;
+        margin-top: -30px;
+        text-align: center;
+
+        h1 {
+            font-size: 25px;
+            width: 300px;
+            text-align: left;
+        }
+
+        h3 {
+            font-size: 18px;
+            width: 300px;
+            text-align: left;
+            color: rgb(177, 176, 176);
+        }
+    }
+
+    .Section4btn {
+        Button {
+            background-color: #E0EBFC;
+            color: #1562fc;
+            margin-right: 0px;
+            margin-top: 15px;
+            width: 300px;
+        }
+    }
+
+    Button:hover {
+        cursor: pointer;
+        box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.8);
+
+    }
+}
